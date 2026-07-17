@@ -1,6 +1,6 @@
 # LanChat
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue.svg)
 ![Rust](https://img.shields.io/badge/Rust-1.96-orange.svg)
@@ -45,25 +45,6 @@ Grab the latest release from [Releases](https://github.com/xxx/lanchat/releases)
 
 ---
 
-## Quick Start
-
-### Windows
-
-```powershell
-# Portable (recommended)
-Extract lanchat-windows-x64.zip
-Double-click lanchat-app.exe
-
-# Enterprise silent install
-.\install_windows.ps1 -Silent
-```
-
-### Linux
-
-```bash
-tar -xzf lanchat-linux-x64.tar.gz
-./lanchat-app
-```
 
 ### Firewall
 
@@ -101,10 +82,7 @@ On first launch, LanChat will automatically attempt to configure Windows Firewal
 | Plan | Price |
 |------|-------|
 | Free | Free |
-| Pro (monthly) | $4.99 / month |
-| Pro (annual) | $39.99 / year |
 | Pro (lifetime) | $99.99 one-time (all future updates included) |
-| Team (10 seats, annual) | $249.99 / year |
 
 > One person purchases Pro, every client on the LAN auto-unlocks.
 
@@ -178,32 +156,9 @@ Method B: LanChat → File menu → 🔑 Activate Pro → Paste license content 
 
 ---
 
-## Project Structure
-
-```
-lanchat/
-├── crates/
-│   ├── lanchat-app/         # GUI application entry point
-│   ├── lanchat-core/        # Core business logic
-│   ├── lanchat-network/     # Network layer (UDP discovery / TCP transfer)
-│   ├── lanchat-protocol/    # Message protocol definitions
-│   ├── lanchat-storage/     # SQLite storage layer
-│   └── license-cli/         # License CLI tool
-├── README.md
-├── LICENSE
-├── README_BEFORE_INSTALL.md
-├── README_AFTER_INSTALL.md
-├── EULA.txt
-├── commercial-features-roadmap.md
-├── platform-audit.md
-└── release-promotion-plan.md
-```
-
----
-
 ## License
 
-This project is open source under the [MIT License](LICENSE).
+This project is proprietary and closed-source. All rights reserved.
 
 ---
 
